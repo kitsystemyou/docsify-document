@@ -5,7 +5,7 @@ image: gitpod/workspace-full:latest
 tasks:
   - name: docsify-cli
     init: npm i docsify-cli -g
-    command: echo 'start script'
+    command: docsify serve ./docs
 
 # List the ports to expose. Learn more: https://www.gitpod.io/docs/configure/workspaces/ports
 ports:
